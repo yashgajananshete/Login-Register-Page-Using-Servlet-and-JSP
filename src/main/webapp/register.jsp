@@ -32,38 +32,38 @@ body {
 				<h1 class="heading">Sign Up</h1>
 				<div class="mb-3">
 					<input type="text" class="form-control" id="exampleInputEmail1"
-						name="name" aria-describedby="emailHelp" placeholder="Enter Full Name">
+						name="name" aria-describedby="emailHelp" placeholder="Enter Full Name" required>
 				</div>
 
 
 
 				<div class="form-floating mb-3">
 					<input type="text" class="form-control" id="floatingInput"
-						name="email" placeholder="name@example.com"> <label
+						name="email" placeholder="name@example.com" required> <label
 						for="floatingInput">Email address</label>
 				</div>
 				<div class="form-floating">
 					<input type="password" class="form-control" id="floatingPassword"
-						name="pass" placeholder="Password"> <label
-						for="floatingPassword">Password</label>
+						name="pass" placeholder="Password" required> <label
+						for="floatingPassword" >Password</label>
 				</div>
 
 				<div class="genderCheck">
 					<div class="form-check">
 						<input class="form-check-input" type="radio" name="gender"
-							id="exampleRadios1" value="male"> <label
+							id="exampleRadios1" value="male" required> <label
 							class="form-check-label" for="exampleRadios1"> Male &nbsp
 						</label>
 					</div>
 					<div class="form-check">
 						<input class="form-check-input" type="radio" name="gender"
-							id="exampleRadios2" value="female"> <label
+							id="exampleRadios2" value="female" required> <label
 							class="form-check-label" for="exampleRadios2"> Female
 							&nbsp </label>
 					</div>
 					<div class="form-check">
 						<input class="form-check-input" type="radio" name="gender"
-							id="exampleRadios3" value="other"> <label
+							id="exampleRadios3" value="other" required> <label
 							class="form-check-label" for="exampleRadios3"> Other </label>
 					</div>
 				</div>
@@ -71,7 +71,7 @@ body {
 
 				<br />
 				<div class="mb-3">
-					<select class="form-select" id="citySelect" name="city">
+					<select class="form-select" id="citySelect" name="city" required>
 						<option selected>Select City</option>
 						<option>Amravati</option>
 						<option>Pune</option>
